@@ -1,6 +1,10 @@
 var app = new Vue({
     el : '#app',
     data : {
-        mensaje: 'Hola vue.js!'
+        lista : [
+            {nombre: 'Juan carlos', promedio: '10', estado: false},
+            {nombre: 'Liliana Nataly', promedio: '17', estado: true},
+            {nombre: 'Luis Alberto', promedio: '18', estado: true}
+        ],
     }
 })
